@@ -1,14 +1,33 @@
 
 <?php
 include 'config.php';
+
 if(isset($_POST['add_barang']))
 {
+//     function upload_foto()
+// {
+//     $namaFile = $_FILES['foto']['name'];
+//     //   $ukuranFile = $_FILES['foto']['size'];
+// //         $error = $_FILES['foto']['error'];
+//     $tmpname = $_FILES['foto']['tmp_name'];
+
+//     $extensifileValid = ['jpg', 'jpeg', 'png'];
+//     $extensifile = explode('.', $namaFile);
+//     $extensifile = strtolower(end($extensifile));
+
+//     // if (!in_array($extensifile, $extensifileValid)) {
+//     //     echo "<script>document.location.href='index.php'</script>";
+//     //     die();
+//     // }
+//     move_uploaded_file($tmpname, 'assets/img/' . $namaFile);
+//     return $namaFile;
+// }
     $idproduk = htmlspecialchars($_POST['idproduk']);
     $nama_produk = htmlspecialchars($_POST['nama_produk']);
     $harga_modal = htmlspecialchars($_POST['harga_modal']);
     $stock = htmlspecialchars($_POST['stock']);
     $harga_jual = htmlspecialchars($_POST['harga_jual']);
-    $foto = htmlspecialchars($_POST['foto']);
+    $foto = ($_POST['foto']);
     $tgl_input =($_POST['tgl_input']);
     $userid =($_POST['userid']);
    
@@ -54,8 +73,11 @@ $idproduk =  sprintf("%03s", $urutan);
     <!-- barang -->
     <div class="col-md-12 mb-3">
         <div class="card">
-        <div class="card-header bg-purple">
-                <div class="card-tittle text-white"><i class="fa fa-shopping-cart"></i> <b>Tambah Barang</b></div>
+        <div class="card-header bg-purple container text-center">
+            <div class="row ">
+                <div class="card-tittle text-white col "><i class="fa fa-shopping-cart "></i> <b>Tambah Barang</b></div>
+                <div class="col col-lg-2 text-white'"><a href="index.php"><i class='bx bx-arrow-back'></i></a></div>
+            </div>
             </div>
             <div class="card-body">
                 <form method="POST">

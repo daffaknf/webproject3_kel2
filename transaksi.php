@@ -6,6 +6,7 @@ $jsArray1 = "var harga_jual = new Array();";
 $jsArray2 = "var harga_modal = new Array();";  
  ?>
 <!-- isinya -->
+
 <form method="post">
 <div class="row">
 

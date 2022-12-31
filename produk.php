@@ -67,13 +67,13 @@ $idproduk =  sprintf("%03s", $urutan);
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <div class="col-md-10 mb-2">
+    <div class="col-md-12 mb-2">
     <div class="row">
 
     <!-- barang -->
-    <div class="col-md-12 mb-3">
+    
         <div class="card">
-        <div class="card-header bg-purple container text-center">
+        <div class="card-header bg-purple  text-center">
             <div class="row ">
                 <div class="card-tittle text-white col "><i class="fa fa-shopping-cart "></i> <b>Tambah Barang</b></div>
                 <div class="col col-lg-2 text-white'"><a href="index.php"><i class='bx bx-arrow-back'></i></a></div>
@@ -123,7 +123,6 @@ $idproduk =  sprintf("%03s", $urutan);
                     </div>
                 </form>
             </div>
-        </div>
     </div>
     <!-- end barang -->
 

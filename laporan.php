@@ -6,6 +6,14 @@ $i2 = mysqli_fetch_assoc(mysqli_query($conn,"SELECT SUM(qty*harga_modal) as totd
 $i3 = mysqli_fetch_assoc(mysqli_query($conn,"SELECT SUM(subtotal-qty*harga_modal) as totdpt1 FROM laporan"));
 $i4 = mysqli_fetch_assoc(mysqli_query($conn,"SELECT SUM(subtotal) as isub FROM laporan"));
 ?>
+<div class="card">
+        <div class="card-header bg-purple  text-center">
+            <div class="row ">
+                <div class="card-tittle text-white col "><i class="fa fa-shopping-cart "></i> <b>Laporan Barang</b></div>
+                <div class="col col-lg-2 text-white'"><a href="index.php"><i class='bx bx-arrow-back'></i></a></div>
+            </div>
+            </div>
+            <div class="card-body">
     <h1 class="h3 mb-2">Data Laporan</h1>
         <div class="row">
 
@@ -38,6 +46,9 @@ $i4 = mysqli_fetch_assoc(mysqli_query($conn,"SELECT SUM(subtotal) as isub FROM l
             </div>
 
         </div>
+        </div>
+        </div>
+
 <hr>
 <table class="table table-striped table-sm table-bordered dt-responsive nowrap" id="table" width="100%">
 <thead>

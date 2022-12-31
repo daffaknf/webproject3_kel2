@@ -7,9 +7,16 @@ $jsArray2 = "var harga_modal = new Array();";
  ?>
 <!-- isinya -->
 
+        <div class="card">
+        <div class="card-header bg-purple  text-center">
+            <div class="row ">
+                <div class="card-tittle text-white col "><i class="fa fa-shopping-cart "></i> <b>Transaksi Barang</b></div>
+                <div class="col col-lg-2 text-white'"><a href="index.php"><i class='bx bx-arrow-back'></i></a></div>
+            </div>
+            </div>
+            <div class="card-body">
 <form method="post">
 <div class="row">
-
   <div class="col-sm-4 col-md-4 col-lg-3 mb-3">
     <label class="small text-muted mb-1">Kode Produk</label>
     <div class="position-relative">
@@ -53,6 +60,9 @@ $jsArray2 = "var harga_modal = new Array();";
 
 </div><!-- end row -->
 </form>
+
+</div>
+</div>
 <?php 
 if(isset($_POST['InputCart']))
 {

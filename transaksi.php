@@ -127,7 +127,7 @@ if(isset($_POST['InputCart']))
     }
 }
 };
- $DataInv = mysqli_fetch_array(mysqli_query($conn,"SELECT * FROM cart "));
+ $DataInv = mysqli_fetch_array(mysqli_query($conn,"SELECT * FROM cart LIMIT 1 "));
 $noinv = isset($DataInv['invoice']) ? $DataInv['invoice']: '';
 ?>
 <div class="bg-purple p-2 text-white" style="border-radius:0.25rem;">

@@ -46,7 +46,6 @@
                             <span class="text nav-text">Transaksi</span>
                         </a>
                     </li>
-
                     <li class="nav-link">
                         <a href="produk.php">
                             <i class='bx bx-cart icon' ></i>

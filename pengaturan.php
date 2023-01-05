@@ -51,7 +51,7 @@
 
                         <div class="card-body">
 
-                            <img src="https://avatars.githubusercontent.com/u/45115034?v=4" alt="Profil Picture" class="img img-thumbnail rounded-circle w-50">
+                            <img src="assets/logo_ratna.png" alt="Profil Picture" class="img img-thumbnail rounded-circle w-50">
 
                             <h2>Ratna Stationary</h2>
 
@@ -128,25 +128,15 @@
                                     Ikuti saya di :
                                 </div>
 
-                                <a href="https://github.com/janzenfaidiban" target="_blank" class="text-decoration-none link-secondary fs-2">
+                                <a href="https://github.com/daffaknf" target="_blank" class="text-decoration-none link-secondary fs-2">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
 
-                                <a href="https://instagram.com/janzen.faidiban" target="_blank" class="text-decoration-none link-secondary fs-2">
+                                <a href="https://www.instagram.com/harun.alrosyid.9237/" target="_blank" class="text-decoration-none link-secondary fs-2">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
 
-                                <a href="https://facebook.com/" target="_blank" class="text-decoration-none link-secondary fs-2">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-
-                                <a href="https://youtube.com/" target="_blank" class="text-decoration-none link-secondary fs-2">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-
-                                <a href="https://linkedin.com/" target="_blank" class="text-decoration-none link-secondary fs-2">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
+                                
 
                             </div>
                             <!-- .col end -->

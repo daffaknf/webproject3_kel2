@@ -76,7 +76,7 @@ $idproduk =  sprintf("%03s", $urutan);
         <div class="card-header bg-purple  text-center">
             <div class="row ">
                 <div class="card-tittle text-white col "><i class="fa fa-shopping-cart "></i> <b>Tambah Barang</b></div>
-                <div class="col col-lg-2 text-white'"><a href="index.php"><i class='bx bx-arrow-back'></i></a></div>
+                <div class="col col-lg-2 text-white'"><a href="index.php" class="link-warning text-decoration-none fw-bold ms-2"><i class='bx bx-arrow-back'>  Keluar</i></a></div>
             </div>
             </div>
             <div class="card-body">

@@ -61,16 +61,11 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="pengaturan.php">
                             <i class='bx bx-info-circle icon' ></i>
                             <span class="text nav-text">Pengaturan</span>
                         </a>
                     </li>
-
-                    
-
-                    
-
                 </ul>
             </div>
 

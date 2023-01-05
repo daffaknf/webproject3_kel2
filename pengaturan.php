@@ -27,7 +27,7 @@
 
             <div>
              <b>Ratna Staionary</b>
-                <a href="index.php" class="link-warning text-decoration-none fw-bold ms-2"><i class='bx bx-arrow-back'>  Keluar</i></a>
+                <a href="dashboard.php" class="link-warning text-decoration-none fw-bold ms-2"><i class='bx bx-arrow-back'>  Keluar</i></a>
             </div>
 
         </div>
